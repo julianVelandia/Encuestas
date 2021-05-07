@@ -23,7 +23,7 @@
     --l--cont-title:20px;
     --w--cont-boton:120px;
     --h--cont-boton:60px;
-    --l--cont-boton:10px;
+    --l--cont-boton:15px;
 }
 
 *{
@@ -148,6 +148,10 @@
     justify-content: center;
 }
 .cont-botones-boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     margin: 5%;
     padding: 0px;
     color: var(--verde-principal);

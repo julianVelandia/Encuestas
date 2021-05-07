@@ -1,4 +1,6 @@
 {% extends "base.html" %}
+{% load static %}
+
 
 {% block title%}
 <title>Web de encuestas</title>
@@ -10,18 +12,18 @@
         Crea tus encuestas de forma rápida y sencilla
     </h1>
     <div class="cont-botones">
-        <button class="cont-botones-boton">
+        <a href='cuestionario/crear' class="cont-botones-boton">
             crear
-        </button>
-        <button class="cont-botones-boton">
+        </a>
+        <a href='cuestionario/responder' class="cont-botones-boton">
             responder
-        </button >
-        <button class="cont-botones-boton">
+        </a >
+        <a href='cuestionario/actualizar' class="cont-botones-boton">
             actualizar
-        </button>
-        <button class="cont-botones-boton">
+        </a>
+        <a href='cuestionario/eliminar' class="cont-botones-boton">
             eliminar
-        </button>
+        </a>
     </div>
     
 </section>
